@@ -1,6 +1,6 @@
 /* Make Tab Lines Green */
 .Node.is-currentRoot .Node .Node-children {
-    border-left: 1px dotted green !important;
+    border-left: 1px dotted #E0E0E0	 !important;
 }
 
 /* Hide All Bulletpoints (1st and 2nd in current view) */
@@ -53,9 +53,10 @@ Generic Tags
 ----------------------------------*/
 
 /* Makes bulletpoints less distracting overall*/
-/* .Node-bullet:before {
-	font-size: 6px !important;
-} */
+.Node-bullet:before {
+	font-size: 12px !important;
+	color: #5D64F6;
+}
 
 /* Vertical Alignment to Color Tags 1 & 2*/
 .Node-self {
@@ -96,10 +97,11 @@ a[href^="https://dynalist.io"] {
 	color: green;
 }
 
-a[title^="Filter #"] {
+/* Tags dark blue */
+/* a[title^="Filter #"] {
 	color: #000099;
 	font-style: normal;
-}
+} */
 
 /* Enter Specific Color Tags Here */
 /* a[title^="Filter #d-projects"]
