@@ -1,3 +1,6 @@
+/* FIXME: Why are ordered list numbers green? */
+
+
 /* Make Tab Lines Green */
 .Node.is-currentRoot .Node .Node-children {
     border-left: 1px dotted #E0E0E0	 !important;
