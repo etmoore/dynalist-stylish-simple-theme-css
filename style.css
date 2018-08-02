@@ -55,13 +55,16 @@ Generic Tags
 /* Makes bulletpoints less distracting overall*/
 .Node-bullet:before {
 	font-size: 12px !important;
-	color: #5D64F6;
+	/* color: #5D64F6; */  /* purple */
 }
 
 /* Vertical Alignment to Color Tags 1 & 2*/
 .Node-self {
 	padding-left: 83px !important;
 }
+
+
+/* FIXME: Not sure if these custome heading colors are doing anything */
 
 /* Custom Heading3 colors*/
 .Node.is-heading3 > div:first-child {
